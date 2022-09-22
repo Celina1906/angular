@@ -9,6 +9,7 @@ import {FormControl, Validators} from '@angular/forms';
 })
 export class FormFieldErrorExample {
   email = new FormControl('', [Validators.required, Validators.email]);
+  hide = true;
 
   getErrorMessage() {
     if (this.email.hasError('required')) {
