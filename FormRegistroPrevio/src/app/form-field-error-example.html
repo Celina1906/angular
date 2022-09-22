@@ -1,0 +1,22 @@
+<mat-card class="formRegistroPrevio-card">
+  <mat-card-header>
+    <mat-card-title class="titulo">Únete a empower</mat-card-title>
+  </mat-card-header>
+
+  <label class=labelCorreo>Correo electrónico</label>
+  <label class=labelContrasena>Contraseña</label>
+</mat-card>
+
+
+<div class="example-container">
+  <mat-form-field>
+    <mat-label>Escribe aquí tu correo electrónico</mat-label>
+    <input matInput class= "inputCorreo" placeholder="pat@example.com" [formControl]="email" required>
+    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+  </mat-form-field>
+</div>
+
+
+<!-- Copyright 2022 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->

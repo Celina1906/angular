@@ -1,0 +1,68 @@
+.formRegistroPrevio-card {
+  height: 609px;
+  width: 564px;
+  left: 0px; /* 729*/
+  top: 0px; /* 123*/
+  border-radius: 8px;
+  background: #F5F0F0;
+}
+
+.titulo{
+  position: absolute;
+  width: 237px;
+  height: 32px;
+  left: 163px;/*892px*/
+  right:164px;
+  top: 44px; /*167px*/
+
+  font-family: 'Bryant Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #D76928;
+}
+
+.labelCorreo{
+  position: absolute;
+  width: 148px;
+  height: 18px;
+  left: 57px;/*786*/
+  top: 132px;/*255*/
+
+  font-family: 'Bryant Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #45485B;
+}
+
+.labelContrasena{
+  position: absolute;
+  width: 148px;
+  height: 18px;
+  left: 53px;/*786*/
+  top: 244px;/*123*/
+
+  font-family: 'Bryant Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #45485B;
+}
+
+.example-container  {
+  position: absolute;
+  top: 200px;
+  left: 85px;
+  background: #FFFFFF;
+  width: 452px;
+  height: 44px;
+}
+
+.inputCorreo{
+  width: 452;
+}
